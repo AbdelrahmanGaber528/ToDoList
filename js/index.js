@@ -1,8 +1,5 @@
 const addButton = document.querySelector('#add');
 const taskInput = document.querySelector('#inputTask');
-const tasks = document.querySelector('#tasks');
-var delButton = document.querySelector('#del-btn');
-
 
 const addNewTask = function(){
     if(taskInput.value === ''){
